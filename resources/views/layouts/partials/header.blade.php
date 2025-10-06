@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Pizza - Free Bootstrap 4 Template by Colorlib</title>
+    <title>NetPizza | Header</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -27,18 +27,18 @@
   <body>
   	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-		      <a class="navbar-brand" href="{{ url('/') }}"><span class="flaticon-pizza-1 mr-1"></span>Pizza<br><small>Delicious</small></a>
+		      <a class="navbar-brand" href="{{ url('/') }}"><span class="flaticon-pizza-1 mr-1"></span>NetPizza<br><small>Isteni Finom</small></a>
 		      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-		        <span class="oi oi-menu"></span> Menu
+		        <span class="oi oi-menu"></span> Menü
 		      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item active"><a href="{{ url('/') }}" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="{{ url('menu') }}" class="nav-link">Menu</a></li>
-	          <li class="nav-item"><a href="{{ url('services') }}" class="nav-link">Services</a></li>
-	          <li class="nav-item"><a href="{{ url('blog') }}" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="{{ url('about') }}" class="nav-link">About</a></li>
-	          <li class="nav-item"><a href="{{ url('contact') }}" class="nav-link">Contact</a></li>
+	          <li class="nav-item active"><a href="{{ url('/') }}" class="nav-link">Kezdőlap</a></li>
+	          <li class="nav-item"><a href="{{ url('menu') }}" class="nav-link">Menü</a></li>
+	          <li class="nav-item"><a href="{{ url('services') }}" class="nav-link">Szolgáltatások</a></li>
+	          <li class="nav-item"><a href="{{ url('login') }}" class="nav-link">Bejelentkezés</a></li>
+	          <li class="nav-item"><a href="{{ url('about') }}" class="nav-link">Rólunk</a></li>
+	          <li class="nav-item"><a href="{{ url('contact') }}" class="nav-link">Kapcsolat</a></li>
 	        </ul>
 	      </div>
 		  </div>
