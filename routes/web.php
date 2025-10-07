@@ -27,10 +27,17 @@ Route::get('/about', function () {
     return view('layouts.about');
 })->name('about');
 
-// Bejelentkezés / Regisztráció (a blog helyett)
-Route::view('/login', 'layouts.login')->name('login');
+// 🔹 A régi login route-ot töröltük, mert Breeze kezeli!
+// require __DIR__.'/auth.php' marad alul, ez hozza be a Breeze útvonalakat
 
 // Breeze (auth) útvonalak
 require __DIR__.'/auth.php';
+
+// Admin felület – csak admin láthatja
+Route::get('/admin', function () {
+    return view('layouts.admin');
+})->middleware('role:admin')->name('admin');
+
+
 
 
