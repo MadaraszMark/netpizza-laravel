@@ -38,6 +38,12 @@ Route::get('/admin', function () {
     return view('layouts.admin');
 })->middleware('role:admin')->name('admin');
 
+// Üzenetek – csak bejelentkezett (registered vagy admin) felhasználóknak
+Route::get('/messages', function () {
+    return view('layouts.messages');
+})->middleware(['auth'])->name('messages');
+
+
 
 
 

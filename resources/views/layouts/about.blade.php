@@ -186,26 +186,29 @@
     	<div class="container-wrap">
     		<div class="row no-gutters d-md-flex align-items-center">
     			<div class="col-md-6 d-flex align-self-stretch">
-    				<div id="map"></div>
+    				<iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2667.525861!2d19.692!3d46.906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dc7fa7b3c7cd%3A0x123456789abcdef!2sF%C5%91%20utca%2021%2C%20Kecskem%C3%A9t!5e0!3m2!1shu!2shu!4v1694789012345!5m2!1shu!2shu"
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+    </iframe>
     			</div>
 	    		<div class="col-md-6 appointment ftco-animate">
-	    			<h3 class="mb-3">Contact Us</h3>
+	    			<h3 class="mb-3">Lépj kapcsolatba velünk</h3>
 	    			<form action="#" class="appointment-form">
 	    				<div class="d-md-flex">
 		    				<div class="form-group">
-		    					<input type="text" class="form-control" placeholder="First Name">
+		    					<input type="text" class="form-control" placeholder="Keresztnév">
 		    				</div>
 	    				</div>
 	    				<div class="d-me-flex">
 	    					<div class="form-group">
-		    					<input type="text" class="form-control" placeholder="Last Name">
+		    					<input type="text" class="form-control" placeholder="Vezetéknév">
 		    				</div>
 	    				</div>
 	    				<div class="form-group">
-	              <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="Message"></textarea>
+	              <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="Üzenet"></textarea>
 	            </div>
 	            <div class="form-group">
-	              <input type="submit" value="Send" class="btn btn-primary py-3 px-4">
+	              <input type="submit" value="Küldés" class="btn btn-primary py-3 px-4">
 	            </div>
 	    			</form>
 	    		</div>    			

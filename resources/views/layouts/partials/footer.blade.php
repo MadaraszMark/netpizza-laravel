@@ -46,7 +46,7 @@
 
       <div class="col-lg-2 col-md-6 mb-5 mb-md-5">
         <div class="ftco-footer-widget mb-4 ml-md-4">
-          <h2 class="ftco-heading-2">Szolgáltatásaink</h2>
+          <h2 class="ftco-heading-2">Szolgáltatások</h2>
           <ul class="list-unstyled">
             <li><a href="#" class="py-2 d-block">Frissen sütött ételek</a></li>
             <li><a href="#" class="py-2 d-block">Házhoz szállítás</a></li>
@@ -61,8 +61,8 @@
           <h2 class="ftco-heading-2">Elérhetőségek</h2>
           <div class="block-23 mb-3">
             <ul>
-              <li><span class="icon icon-map-marker"></span><span class="text">203 Pizza utca, Budapest, Magyarország</span></li>
-              <li><a href="#"><span class="icon icon-phone"></span><span class="text">+36 30 555 1234</span></a></li>
+              <li><span class="icon icon-map-marker"></span><span class="text">6000 Kecskemét, Fő utca 21, Magyarország</span></li>
+              <li><a href="#"><span class="icon icon-phone"></span><span class="text">+36 76 123 456</span></a></li>
               <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@netpizza.hu</span></a></li>
             </ul>
           </div>
@@ -102,7 +102,6 @@
 <script src="{{ asset('js/bootstrap-datepicker.js') }}"></script>
 <script src="{{ asset('js/jquery.timepicker.min.js') }}"></script>
 <script src="{{ asset('js/scrollax.min.js') }}"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
 <script src="{{ asset('js/google-map.js') }}"></script>
 <script src="{{ asset('js/main.js') }}"></script>
 

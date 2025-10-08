@@ -6,10 +6,10 @@
           <div class="row slider-text align-items-center" data-scrollax-parent="true">
 
             <div class="col-md-6 col-sm-12 ftco-animate">
-            	<span class="subheading">Delicious</span>
-              <h1 class="mb-4">Italian Cuizine</h1>
-              <p class="mb-4 mb-md-5">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              <p><a href="#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> <a href="#" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
+            	<span class="subheading">Ínycsiklandó</span>
+              <h1 class="mb-4">Olasz konyha</h1>
+              <p class="mb-4 mb-md-5">Kecskemét központjában, természetközelben várjuk vendégeinket különleges olasz fogásokkal.</p>
+              <p><a href="#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Rendelés most</a> <a href="#" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">Menü megtekintése</a></p>
             </div>
             <div class="col-md-6 ftco-animate">
             	<img src="images/bg_1.png" class="img-fluid" alt="">
@@ -25,10 +25,10 @@
           <div class="row slider-text align-items-center" data-scrollax-parent="true">
 
             <div class="col-md-6 col-sm-12 order-md-last ftco-animate">
-            	<span class="subheading">Crunchy</span>
-              <h1 class="mb-4">Italian Pizza</h1>
-              <p class="mb-4 mb-md-5">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              <p><a href="#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> <a href="#" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
+            	<span class="subheading">Ropogós</span>
+              <h1 class="mb-4">Olasz Pizza</h1>
+              <p class="mb-4 mb-md-5">Kecskemét központjában, természetközelben várjuk vendégeinket különleges olasz fogásokkal.</p>
+              <p><a href="#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Rendelés most</a> <a href="#" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">Menü megtekintése</a></p>
             </div>
             <div class="col-md-6 ftco-animate">
             	<img src="images/bg_2.png" class="img-fluid" alt="">
@@ -44,10 +44,10 @@
           <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
 
             <div class="col-md-7 col-sm-12 text-center ftco-animate">
-            	<span class="subheading">Welcome</span>
-              <h1 class="mb-4">We cooked your desired Pizza Recipe</h1>
-              <p class="mb-4 mb-md-5">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              <p><a href="#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> <a href="#" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
+            	<span class="subheading">Üdvözöljük!</span>
+              <h1 class="mb-4">Kecskeméten sütjük a kedvenc pizzád receptje szerint</h1>
+              <p class="mb-4 mb-md-5">Kecskemét központjában, természetközelben várjuk vendégeinket különleges olasz fogásokkal.</p>
+              <p><a href="#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Rendelés most</a> <a href="#" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">Menü megtekintése</a></p>
             </div>
 
           </div>
@@ -63,22 +63,22 @@
 	    				<div class="col-md-4 d-flex ftco-animate">
 	    					<div class="icon"><span class="icon-phone"></span></div>
 	    					<div class="text">
-	    						<h3>000 (123) 456 7890</h3>
-	    						<p>A small river named Duden flows</p>
+	    						<h3>+36 76 123 456</h3>
+	    						<p>Hívj minket bizalommal!</p>
 	    					</div>
 	    				</div>
 	    				<div class="col-md-4 d-flex ftco-animate">
 	    					<div class="icon"><span class="icon-my_location"></span></div>
 	    					<div class="text">
-	    						<h3>198 West 21th Street</h3>
-	    						<p>Suite 721 New York NY 10016</p>
+	    						<h3>6000 Kecskemét, Fő utca 21</h3>
+	    						<p>A belváros szívében, könnyen megközelíthető helyen</p>
 	    					</div>
 	    				</div>
 	    				<div class="col-md-4 d-flex ftco-animate">
 	    					<div class="icon"><span class="icon-clock-o"></span></div>
 	    					<div class="text">
-	    						<h3>Open Monday-Friday</h3>
-	    						<p>8:00am - 9:00pm</p>
+	    						<h3>Nyitva: Hétfő–Péntek</h3>
+	    						<p>8:00 - 21:00</p>
 	    					</div>
 	    				</div>
 	    			</div>
@@ -98,10 +98,12 @@
     	<div class="one-half img" style="background-image: url(images/about.jpg);"></div>
     	<div class="one-half ftco-animate">
         <div class="heading-section ftco-animate ">
-          <h2 class="mb-4">Welcome to <span class="flaticon-pizza">Pizza</span> A Restaurant</h2>
+          <h2 class="mb-4">Üdvözlünk a <span class="flaticon-pizza">NetPizza</span> Étteremben</h2>
         </div>
         <div>
-  				<p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
+  				<p>A NetPizza Kecskemét egyik kedvenc pizzériája, ahol a friss alapanyagok és az olasz ízek találkoznak.  
+                Szenvedéllyel sütjük pizzáinkat, hogy minden falat egy kis szelet Itáliát idézzen.  
+                Legyen szó gyors ebédről, családi vacsoráról vagy baráti összejövetelről, nálunk mindig meleg fogadtatás és mennyei illatok várnak</p>
   			</div>
     	</div>
     </section>
@@ -111,8 +113,9 @@
     	<div class="container">
     		<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section ftco-animate text-center">
-            <h2 class="mb-4">Our Services</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <h2 class="mb-4">Szolgáltatásaink</h2>
+            <p>A NetPizza-nál minden a friss alapanyagokról, a gyors kiszolgálásról és az eredeti olasz ízekről szól.
+                Ismerd meg, miben vagyunk igazán különlegesek!</p>
           </div>
         </div>
     		<div class="row">
@@ -122,8 +125,8 @@
               	<span class="flaticon-diet"></span>
               </div>
               <div class="media-body">
-                <h3 class="heading">Healthy Foods</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <h3 class="heading">Friss és minőségi alapanyagok</h3>
+                <p>Pizzáinkhoz kizárólag friss, válogatott alapanyagokat használunk, hogy minden falat tökéletes legyen.</p>
               </div>
             </div>      
           </div>
@@ -133,8 +136,8 @@
               	<span class="flaticon-bicycle"></span>
               </div>
               <div class="media-body">
-                <h3 class="heading">Fastest Delivery</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <h3 class="heading">Villámgyors kiszállítás</h3>
+                <p>Rendelésedet rövid időn belül házhoz visszük, hogy a pizza forrón, ropogósan érkezzen meg.</p>
               </div>
             </div>      
           </div>
@@ -142,8 +145,8 @@
             <div class="media d-block text-center block-6 services">
               <div class="icon d-flex justify-content-center align-items-center mb-5"><span class="flaticon-pizza-1"></span></div>
               <div class="media-body">
-                <h3 class="heading">Original Recipes</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <h3 class="heading">Eredeti olasz receptek</h3>
+                <p>A NetPizza különlegessége, hogy pizzáink hagyományos olasz recept alapján készülnek.</p>
               </div>
             </div>    
           </div>
@@ -155,8 +158,8 @@
     	<div class="container">
     		<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section ftco-animate text-center">
-            <h2 class="mb-4">Hot Pizza Meals</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <h2 class="mb-4">Pizzakínálatunk</h2>
+            <p>Fedezd fel Kecskemét legízletesebb pizzáit – friss alapanyagokból, kemencében sütve, a NetPizza konyhájából.</p>
           </div>
         </div>
     	</div>
@@ -166,9 +169,9 @@
     				<div class="services-wrap d-flex">
     					<a href="#" class="img" style="background-image: url(images/pizza-1.jpg);"></a>
     					<div class="text p-4">
-    						<h3>Italian Pizza</h3>
-    						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia </p>
-    						<p class="price"><span>$2.90</span> <a href="#" class="ml-2 btn btn-white btn-outline-white">Order</a></p>
+    						<h3>Olasz klasszikus</h3>
+    						<p>Vékony tészta, paradicsomszósz, mozzarella és friss bazsalikom – az igazi olasz ízvilág. </p>
+    						<p class="price"><span>2 990 Ft</span> <a href="#" class="ml-2 btn btn-white btn-outline-white">Rendelés</a></p>
     					</div>
     				</div>
     			</div>
@@ -176,9 +179,9 @@
     				<div class="services-wrap d-flex">
     					<a href="#" class="img" style="background-image: url(images/pizza-2.jpg);"></a>
     					<div class="text p-4">
-    						<h3>Greek Pizza</h3>
-    						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-    						<p class="price"><span>$2.90</span> <a href="#" class="ml-2 btn btn-white btn-outline-white">Order</a></p>
+    						<h3>Görög Pizza</h3>
+    						<p>Olívabogyóval, fetával és paradicsommal – mediterrán ízek Kecskemét szívében.</p>
+    						<p class="price"><span>2 990 Ft</span> <a href="#" class="ml-2 btn btn-white btn-outline-white">Rendelés</a></p>
     					</div>
     				</div>
     			</div>
@@ -186,9 +189,9 @@
     				<div class="services-wrap d-flex">
     					<a href="#" class="img" style="background-image: url(images/pizza-3.jpg);"></a>
     					<div class="text p-4">
-    						<h3>Caucasian Pizza</h3>
-    						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-    						<p class="price"><span>$2.90</span> <a href="#" class="ml-2 btn btn-white btn-outline-white">Order</a></p>
+    						<h3>Csípős Pizza</h3>
+    						<p>Fűszeres kolbásszal, jalapeñóval és paprikával – igazi magyaros ízvilág.</p>
+    						<p class="price"><span>2 990 Ft</span> <a href="#" class="ml-2 btn btn-white btn-outline-white">Rendelés</a></p>
     					</div>
     				</div>
     			</div>
@@ -197,9 +200,9 @@
     				<div class="services-wrap d-flex">
     					<a href="#" class="img order-lg-last" style="background-image: url(images/pizza-4.jpg);"></a>
     					<div class="text p-4">
-    						<h3>American Pizza</h3>
-    						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia </p>
-    						<p class="price"><span>$2.90</span> <a href="#" class="ml-2 btn btn-white btn-outline-white">Order</a></p>
+    						<h3>Amerikai Pizza</h3>
+    						<p>Extra sajt, füstölt sonka és ropogós szél – a klasszikus amerikai ízvilág újragondolva. </p>
+    						<p class="price"><span>2 990 Ft</span> <a href="#" class="ml-2 btn btn-white btn-outline-white">Rendelés</a></p>
     					</div>
     				</div>
     			</div>
@@ -207,9 +210,9 @@
     				<div class="services-wrap d-flex">
     					<a href="#" class="img order-lg-last" style="background-image: url(images/pizza-5.jpg);"></a>
     					<div class="text p-4">
-    						<h3>Tomatoe Pie</h3>
-    						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-    						<p class="price"><span>$2.90</span> <a href="#" class="ml-2 btn btn-white btn-outline-white">Order</a></p>
+    						<h3>Paradicsomos különlegesség</h3>
+    						<p>Saját készítésű szószunkkal, friss paradicsommal és egy leheletnyi oregánóval.</p>
+    						<p class="price"><span>2 990 Ft</span> <a href="#" class="ml-2 btn btn-white btn-outline-white">Rendelés</a></p>
     					</div>
     				</div>
     			</div>
@@ -218,8 +221,8 @@
     					<a href="#" class="img order-lg-last" style="background-image: url(images/pizza-6.jpg);"></a>
     					<div class="text p-4">
     						<h3>Margherita</h3>
-    						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-    						<p class="price"><span>$2.90</span> <a href="#" class="ml-2 btn btn-white btn-outline-white">Order</a></p>
+    						<p>Az örök klasszikus: paradicsom, mozzarella, friss bazsalikom – egyszerű, mégis tökéletes.</p>
+    						<p class="price"><span>2 990 Ft</span> <a href="#" class="ml-2 btn btn-white btn-outline-white">Rendelés</a></p>
     					</div>
     				</div>
     			</div>
@@ -229,9 +232,9 @@
     	<div class="container">
     		<div class="row justify-content-center mb-5 pb-3 mt-5 pt-5">
           <div class="col-md-7 heading-section text-center ftco-animate">
-            <h2 class="mb-4">Our Menu Pricing</h2>
+            <h2 class="mb-4">Étlap és árak</h2>
             <p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
-            <p class="mt-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <p class="mt-5">Válogass Kecskemét kedvenc pizzái közül – kemencében sütve, friss alapanyagokkal, a NetPizza konyhájából.</p>
           </div>
         </div>
         <div class="row">
@@ -240,11 +243,11 @@
         			<div class="img" style="background-image: url(images/pizza-1.jpg);"></div>
         			<div class="desc pl-3">
 	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Italian Pizza</span></h3>
-	        				<span class="price">$20.00</span>
+	        				<h3><span>Olasz klasszikus</span></h3>
+	        				<span class="price">2 990 Ft</span>
 	        			</div>
 	        			<div class="d-block">
-	        				<p>A small river named Duden flows by their place and supplies</p>
+	        				<p>Vékony tésztás, paradicsomos alapú pizza friss mozzarellával és bazsalikommal.</p>
 	        			</div>
         			</div>
         		</div>
@@ -252,11 +255,11 @@
         			<div class="img" style="background-image: url(images/pizza-2.jpg);"></div>
         			<div class="desc pl-3">
 	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Hawaiian Pizza</span></h3>
-	        				<span class="price">$29.00</span>
+	        				<h3><span>Hawaii Pizza</span></h3>
+	        				<span class="price">2 990 Ft</span>
 	        			</div>
 	        			<div class="d-block">
-	        				<p>A small river named Duden flows by their place and supplies</p>
+	        				<p>Sonkával, ananásszal és olvadt sajttal – édes és sós ízek tökéletes harmóniája.</p>
 	        			</div>
 	        		</div>
         		</div>
@@ -264,11 +267,11 @@
         			<div class="img" style="background-image: url(images/pizza-3.jpg);"></div>
         			<div class="desc pl-3">
 	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Greek Pizza</span></h3>
-	        				<span class="price">$20.00</span>
+	        				<h3><span>Görög Pizza</span></h3>
+	        				<span class="price">2 990 Ft</span>
 	        			</div>
 	        			<div class="d-block">
-	        				<p>A small river named Duden flows by their place and supplies</p>
+	        				<p>Feta sajttal, olívabogyóval és friss paradicsommal – mediterrán ízek Kecskeméten.</p>
 	        			</div>
 	        		</div>
         		</div>
@@ -276,11 +279,11 @@
         			<div class="img" style="background-image: url(images/pizza-4.jpg);"></div>
         			<div class="desc pl-3">
 	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Bacon Crispy Thins</span></h3>
-	        				<span class="price">$20.00</span>
+	        				<h3><span>Baconos ropogós</span></h3>
+	        				<span class="price">3 990 Ft</span>
 	        			</div>
 	        			<div class="d-block">
-	        				<p>A small river named Duden flows by their place and supplies</p>
+	        				<p>Ropogós tésztán sült pizza füstölt baconnel, sajttal és fűszeres paradicsomszósszal.</p>
 	        			</div>
 	        		</div>
         		</div>
@@ -291,11 +294,11 @@
         			<div class="img" style="background-image: url(images/pizza-5.jpg);"></div>
         			<div class="desc pl-3">
 	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Hawaiian Special</span></h3>
-	        				<span class="price">$49.91</span>
+	        				<h3><span>Hawaii különlegesség</span></h3>
+	        				<span class="price">4 990 Ft</span>
 	        			</div>
 	        			<div class="d-block">
-	        				<p>A small river named Duden flows by their place and supplies</p>
+	        				<p>Dupla adag sonka, ananász és extra sajt – az édes és sós ízek tökéletes harmóniája.<</p>
 	        			</div>
 	        		</div>
         		</div>
@@ -303,11 +306,11 @@
         			<div class="img" style="background-image: url(images/pizza-6.jpg);"></div>
         			<div class="desc pl-3">
 	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Ultimate Overload</span></h3>
-	        				<span class="price">$20.00</span>
+	        				<h3><span>NetPizza Extra</span></h3>
+	        				<span class="price">3 990 Ft</span>
 	        			</div>
 	        			<div class="d-block">
-	        				<p>A small river named Duden flows by their place and supplies</p>
+	        				<p>A ház kedvence: mindenből egy kicsi – sonka, kukorica, paprika, gomba és sok sajt.</p>
 	        			</div>
 	        		</div>
         		</div>
@@ -315,11 +318,11 @@
         			<div class="img" style="background-image: url(images/pizza-7.jpg);"></div>
         			<div class="desc pl-3">
 	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Bacon Pizza</span></h3>
-	        				<span class="price">$20.00</span>
+	        				<h3><span>Baconos Pizza</span></h3>
+	        				<span class="price">3 590 Ft</span>
 	        			</div>
 	        			<div class="d-block">
-	        				<p>A small river named Duden flows by their place and supplies</p>
+	        				<p>Ropogós baconnel, olvasztott sajttal és fűszeres paradicsomszósszal – igazi klasszikus.</p>
 	        			</div>
 	        		</div>
         		</div>
@@ -327,11 +330,11 @@
         			<div class="img" style="background-image: url(images/pizza-8.jpg);"></div>
         			<div class="desc pl-3">
 	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Ham &amp; Pineapple</span></h3>
-	        				<span class="price">$20.00</span>
+	        				<h3><span>Sonka &amp; Ananász</span></h3>
+	        				<span class="price">2 990 Ft</span>
 	        			</div>
 	        			<div class="d-block">
-	        				<p>A small river named Duden flows by their place and supplies</p>
+	        				<p>Finom sonkával és friss ananásszal, olasz mozzarellával sütve – minden falatban trópusi élmény.</p>
 	        			</div>
 	        		</div>
         		</div>
@@ -387,7 +390,7 @@
 		              <div class="text">
 		              	<div class="icon"><span class="flaticon-pizza-1"></span></div>
 		              	<strong class="number" data-number="100">0</strong>
-		              	<span>Pizza Branches</span>
+		              	<span>Pizzafajtánk</span>
 		              </div>
 		            </div>
 		          </div>
@@ -396,7 +399,7 @@
 		              <div class="text">
 		              	<div class="icon"><span class="flaticon-medal"></span></div>
 		              	<strong class="number" data-number="85">0</strong>
-		              	<span>Number of Awards</span>
+		              	<span>Elismerés és díjaink</span>
 		              </div>
 		            </div>
 		          </div>
@@ -405,7 +408,7 @@
 		              <div class="text">
 		              	<div class="icon"><span class="flaticon-laugh"></span></div>
 		              	<strong class="number" data-number="10567">0</strong>
-		              	<span>Happy Customer</span>
+		              	<span>Elégedett vásárló</span>
 		              </div>
 		            </div>
 		          </div>
@@ -414,7 +417,7 @@
 		              <div class="text">
 		              	<div class="icon"><span class="flaticon-chef"></span></div>
 		              	<strong class="number" data-number="900">0</strong>
-		              	<span>Staff</span>
+		              	<span>Munkatársaink</span>
 		              </div>
 		            </div>
 		          </div>
@@ -423,272 +426,36 @@
         </div>
       </div>
     </section>
-
-    <section class="ftco-menu">
-    	<div class="container-fluid">
-    		<div class="row d-md-flex">
-	    		<div class="col-lg-4 ftco-animate img f-menu-img mb-5 mb-md-0" style="background-image: url(images/about.jpg);">
-	    		</div>
-	    		<div class="col-lg-8 ftco-animate p-md-5">
-		    		<div class="row">
-		          <div class="col-md-12 nav-link-wrap mb-5">
-		            <div class="nav ftco-animate nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-		              <a class="nav-link active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Pizza</a>
-
-		              <a class="nav-link" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false">Drinks</a>
-
-		              <a class="nav-link" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false">Burgers</a>
-
-		              <a class="nav-link" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false">Pasta</a>
-		            </div>
-		          </div>
-		          <div class="col-md-12 d-flex align-items-center">
-		            
-		            <div class="tab-content ftco-animate" id="v-pills-tabContent">
-
-		              <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab">
-		              	<div class="row">
-		              		<div class="col-md-4 text-center">
-		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/pizza-1.jpg);"></a>
-		              				<div class="text">
-		              					<h3><a href="#">Itallian Pizza</a></h3>
-		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-		              					<p class="price"><span>$2.90</span></p>
-		              					<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
-		              				</div>
-		              			</div>
-		              		</div>
-		              		<div class="col-md-4 text-center">
-		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/pizza-2.jpg);"></a>
-		              				<div class="text">
-		              					<h3><a href="#">Itallian Pizza</a></h3>
-		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-		              					<p class="price"><span>$2.90</span></p>
-		              					<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
-		              				</div>
-		              			</div>
-		              		</div>
-		              		<div class="col-md-4 text-center">
-		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/pizza-3.jpg);"></a>
-		              				<div class="text">
-		              					<h3><a href="#">Itallian Pizza</a></h3>
-		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-		              					<p class="price"><span>$2.90</span></p>
-		              					<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
-		              				</div>
-		              			</div>
-		              		</div>
-		              	</div>
-		              </div>
-
-		              <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab">
-		                <div class="row">
-		              		<div class="col-md-4 text-center">
-		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/drink-1.jpg);"></a>
-		              				<div class="text">
-		              					<h3><a href="#">Lemonade Juice</a></h3>
-		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-		              					<p class="price"><span>$2.90</span></p>
-		              					<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
-		              				</div>
-		              			</div>
-		              		</div>
-		              		<div class="col-md-4 text-center">
-		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/drink-2.jpg);"></a>
-		              				<div class="text">
-		              					<h3><a href="#">Pineapple Juice</a></h3>
-		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-		              					<p class="price"><span>$2.90</span></p>
-		              					<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
-		              				</div>
-		              			</div>
-		              		</div>
-		              		<div class="col-md-4 text-center">
-		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/drink-3.jpg);"></a>
-		              				<div class="text">
-		              					<h3><a href="#">Soda Drinks</a></h3>
-		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-		              					<p class="price"><span>$2.90</span></p>
-		              					<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
-		              				</div>
-		              			</div>
-		              		</div>
-		              	</div>
-		              </div>
-
-		              <div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-3-tab">
-		                <div class="row">
-		              		<div class="col-md-4 text-center">
-		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/burger-1.jpg);"></a>
-		              				<div class="text">
-		              					<h3><a href="#">Itallian Pizza</a></h3>
-		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-		              					<p class="price"><span>$2.90</span></p>
-		              					<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
-		              				</div>
-		              			</div>
-		              		</div>
-		              		<div class="col-md-4 text-center">
-		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/burger-2.jpg);"></a>
-		              				<div class="text">
-		              					<h3><a href="#">Itallian Pizza</a></h3>
-		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-		              					<p class="price"><span>$2.90</span></p>
-		              					<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
-		              				</div>
-		              			</div>
-		              		</div>
-		              		<div class="col-md-4 text-center">
-		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/burger-3.jpg);"></a>
-		              				<div class="text">
-		              					<h3><a href="#">Itallian Pizza</a></h3>
-		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-		              					<p class="price"><span>$2.90</span></p>
-		              					<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
-		              				</div>
-		              			</div>
-		              		</div>
-		              	</div>
-		              </div>
-
-		              <div class="tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-4-tab">
-		                <div class="row">
-		              		<div class="col-md-4 text-center">
-		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/pasta-1.jpg);"></a>
-		              				<div class="text">
-		              					<h3><a href="#">Itallian Pizza</a></h3>
-		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-		              					<p class="price"><span>$2.90</span></p>
-		              					<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
-		              				</div>
-		              			</div>
-		              		</div>
-		              		<div class="col-md-4 text-center">
-		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/pasta-2.jpg);"></a>
-		              				<div class="text">
-		              					<h3><a href="#">Itallian Pizza</a></h3>
-		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-		              					<p class="price"><span>$2.90</span></p>
-		              					<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
-		              				</div>
-		              			</div>
-		              		</div>
-		              		<div class="col-md-4 text-center">
-		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/pasta-3.jpg);"></a>
-		              				<div class="text">
-		              					<h3><a href="#">Itallian Pizza</a></h3>
-		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-		              					<p class="price"><span>$2.90</span></p>
-		              					<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
-		              				</div>
-		              			</div>
-		              		</div>
-		              	</div>
-		              </div>
-		            </div>
-		          </div>
-		        </div>
-		      </div>
-		    </div>
-    	</div>
-    </section>
-
-    <section class="ftco-section">
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section ftco-animate text-center">
-            <h2 class="mb-4">Recent from blog</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-          </div>
-        </div>
-        <div class="row d-flex">
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
-              </a>
-              <div class="text py-4 d-block">
-              	<div class="meta">
-                  <div><a href="#">Sept 10, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
-                <h3 class="heading mt-2"><a href="#">The Delicious Pizza</a></h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
-              </a>
-              <div class="text py-4 d-block">
-              	<div class="meta">
-                  <div><a href="#">Sept 10, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
-                <h3 class="heading mt-2"><a href="#">The Delicious Pizza</a></h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
-              </a>
-              <div class="text py-4 d-block">
-              	<div class="meta">
-                  <div><a href="#">Sept 10, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
-                <h3 class="heading mt-2"><a href="#">The Delicious Pizza</a></h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
 		
 		<section class="ftco-appointment">
 			<div class="overlay"></div>
     	<div class="container-wrap">
     		<div class="row no-gutters d-md-flex align-items-center">
     			<div class="col-md-6 d-flex align-self-stretch">
-    				<div id="map"></div>
-    			</div>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2667.525861!2d19.692!3d46.906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dc7fa7b3c7cd%3A0x123456789abcdef!2sF%C5%91%20utca%2021%2C%20Kecskem%C3%A9t!5e0!3m2!1shu!2shu!4v1694789012345!5m2!1shu!2shu"
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+    </iframe>
+</div>
+
 	    		<div class="col-md-6 appointment ftco-animate">
-	    			<h3 class="mb-3">Contact Us</h3>
+	    			<h3 class="mb-3">Lépj kapcsolatba velünk</h3>
 	    			<form action="#" class="appointment-form">
 	    				<div class="d-md-flex">
 		    				<div class="form-group">
-		    					<input type="text" class="form-control" placeholder="First Name">
+		    					<input type="text" class="form-control" placeholder="Keresztnév">
 		    				</div>
 	    				</div>
 	    				<div class="d-me-flex">
 	    					<div class="form-group">
-		    					<input type="text" class="form-control" placeholder="Last Name">
+		    					<input type="text" class="form-control" placeholder="Vezetéknév">
 		    				</div>
 	    				</div>
 	    				<div class="form-group">
-	              <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="Message"></textarea>
+	              <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="Üzenet"></textarea>
 	            </div>
 	            <div class="form-group">
-	              <input type="submit" value="Send" class="btn btn-primary py-3 px-4">
+	              <input type="submit" value="Küldés" class="btn btn-primary py-3 px-4">
 	            </div>
 	    			</form>
 	    		</div>    			

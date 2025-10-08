@@ -71,35 +71,61 @@
 
         <div class="collapse navbar-collapse" id="ftco-nav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item {{ request()->is('/') ? 'active' : '' }}"><a href="{{ url('/') }}" class="nav-link">Kezdőlap</a></li>
-            <li class="nav-item {{ request()->is('menu') ? 'active' : '' }}"><a href="{{ url('menu') }}" class="nav-link">Menü</a></li>
-            <li class="nav-item {{ request()->is('services') ? 'active' : '' }}"><a href="{{ url('services') }}" class="nav-link">Szolgáltatások</a></li>
-            <li class="nav-item {{ request()->is('about') ? 'active' : '' }}"><a href="{{ url('about') }}" class="nav-link">Rólunk</a></li>
-            <li class="nav-item {{ request()->is('contact') ? 'active' : '' }}"><a href="{{ url('contact') }}" class="nav-link">Kapcsolat</a></li>
+  <li class="nav-item {{ request()->is('/') ? 'active' : '' }}">
+    <a href="{{ url('/') }}" class="nav-link">Kezdőlap</a>
+  </li>
+  <li class="nav-item {{ request()->is('menu') ? 'active' : '' }}">
+    <a href="{{ url('menu') }}" class="nav-link">Menü</a>
+  </li>
+  <li class="nav-item {{ request()->is('services') ? 'active' : '' }}">
+    <a href="{{ url('services') }}" class="nav-link">Szolgáltatások</a>
+  </li>
+  <li class="nav-item {{ request()->is('about') ? 'active' : '' }}">
+    <a href="{{ url('about') }}" class="nav-link">Rólunk</a>
+  </li>
+  <li class="nav-item {{ request()->is('contact') ? 'active' : '' }}">
+    <a href="{{ url('contact') }}" class="nav-link">Kapcsolat</a>
+  </li>
 
-            {{-- AUTH links --}}
-            @guest
-              <li class="nav-item {{ request()->is('login') ? 'active' : '' }}"><a href="{{ route('login') }}" class="nav-link">Bejelentkezés</a></li>
-              <li class="nav-item {{ request()->is('register') ? 'active' : '' }}"><a href="{{ route('register') }}" class="nav-link">Regisztráció</a></li>
-            @else
-              @if(auth()->user()->role === 'admin')
-                <li class="nav-item {{ request()->is('admin') ? 'active' : '' }}"><a href="{{ route('admin') }}" class="nav-link">Admin</a></li>
-              @endif
+  {{-- Üzenetek menüpont - csak bejelentkezett felhasználónak --}}
+  @auth
+    @if(auth()->user()->role === 'registered' || auth()->user()->role === 'admin')
+      <li class="nav-item {{ request()->is('messages') ? 'active' : '' }}">
+        <a href="{{ route('messages') }}" class="nav-link">Üzenetek</a>
+      </li>
+    @endif
+  @endauth
 
-              {{-- Dropdown név + kijelentkezés --}}
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
-                  {{ auth()->user()->name }}
-                </a>
-                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                  <form method="POST" action="{{ route('logout') }}" class="m-0">
-                    @csrf
-                    <button type="submit" class="dropdown-item">Kijelentkezés</button>
-                  </form>
-                </div>
-              </li>
-            @endguest
-          </ul>
+  {{-- AUTH links --}}
+  @guest
+    <li class="nav-item {{ request()->is('login') ? 'active' : '' }}">
+      <a href="{{ route('login') }}" class="nav-link">Bejelentkezés</a>
+    </li>
+    <li class="nav-item {{ request()->is('register') ? 'active' : '' }}">
+      <a href="{{ route('register') }}" class="nav-link">Regisztráció</a>
+    </li>
+  @else
+    @if(auth()->user()->role === 'admin')
+      <li class="nav-item {{ request()->is('admin') ? 'active' : '' }}">
+        <a href="{{ route('admin') }}" class="nav-link">Admin</a>
+      </li>
+    @endif
+
+    {{-- Dropdown név + kijelentkezés --}}
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+        {{ auth()->user()->name }}
+      </a>
+      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+        <form method="POST" action="{{ route('logout') }}" class="m-0">
+          @csrf
+          <button type="submit" class="dropdown-item">Kijelentkezés</button>
+        </form>
+      </div>
+    </li>
+  @endguest
+</ul>
+
         </div>
       </div>
     </nav>

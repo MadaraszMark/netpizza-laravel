@@ -48,6 +48,26 @@ html {
   -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
+.navbar-dark .dropdown-menu {
+  background-color: #222 !important;
+  border: none;
+  margin-top: 0.5rem;
+}
+
+.navbar-dark .dropdown-menu .dropdown-item {
+  color: #fff !important;
+  transition: background-color 0.2s ease;
+}
+
+.navbar-dark .dropdown-menu .dropdown-item:hover {
+  background-color: #444 !important;
+  color: #f8f9fa !important;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
 @-ms-viewport {
   width: device-width; }
 
