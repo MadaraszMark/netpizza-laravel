@@ -1,208 +1,90 @@
 @include('layouts.partials.header')
-    <section class="home-slider owl-carousel img" style="background-image: url(images/bg_1.jpg);">
 
-      <div class="slider-item" style="background-image: url(images/bg_3.jpg);">
-      	<div class="overlay"></div>
-        <div class="container">
-          <div class="row slider-text justify-content-center align-items-center">
-
-            <div class="col-md-7 col-sm-12 text-center ftco-animate">
-            	<h1 class="mb-3 mt-5 bread">Étlapunk</h1>
-	            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Kezdőlap</a></span> <span>Étlap</span></p>
-            </div>
-
-          </div>
+<section class="home-slider owl-carousel img" style="background-image: url('{{ asset('images/bg_1.jpg') }}');">
+  <div class="slider-item" style="background-image: url('{{ asset('images/bg_3.jpg') }}');">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row slider-text justify-content-center align-items-center">
+        <div class="col-md-7 col-sm-12 text-center ftco-animate">
+          <h1 class="mb-3 mt-5 bread">Étlapunk</h1>
+          <p class="breadcrumbs"><span class="mr-2"><a href="{{ url('/') }}">Kezdőlap</a></span> <span>Étlap</span></p>
         </div>
       </div>
-    </section>
-    
-		<section class="ftco-section">
-    	<div class="container">
-    		<div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section ftco-animate text-center">
-            <h2 class="mb-4">Étlapunk</h2>
-            <p>Válogass Kecskemét kedvenc pizzái közül – kemencében sütve, friss alapanyagokkal, a NetPizza konyhájából.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ftco-section">
+  <div class="container">
+
+    {{-- Keresés és szűrő --}}
+    <form method="get" class="mb-5">
+      <div class="row align-items-end">
+        <div class="col-md-6 mb-2">
+          <label class="text-muted small d-block">Keresés név szerint</label>
+          <input type="text" name="q" value="{{ $search }}" class="form-control" placeholder="pl. Margherita">
+        </div>
+        <div class="col-md-3 mb-2">
+          <div class="form-check mt-4">
+            <input class="form-check-input" type="checkbox" name="veg" id="veg" value="1" {{ $onlyVeg ? 'checked' : '' }}>
+            <label class="form-check-label" for="veg">Csak vegetáriánus pizzák</label>
           </div>
         </div>
-    	</div>
-    	<div class="container-wrap">
-    		<div class="row no-gutters d-flex">
-    			<div class="col-lg-4 d-flex ftco-animate">
-    				<div class="services-wrap d-flex">
-    					<a href="#" class="img" style="background-image: url(images/pizza-1.jpg);"></a>
-    					<div class="text p-4">
-    						<h3>Olasz klasszikus</h3>
-    						<p>Vékony tésztás, paradicsomos alapú pizza friss mozzarellával és bazsalikommal. </p>
-    						<p class="price"><span>2 990 Ft</span> <a href="#" class="ml-2 btn btn-white btn-outline-white">Rendelés</a></p>
-    					</div>
-    				</div>
-    			</div>
-    			<div class="col-lg-4 d-flex ftco-animate">
-    				<div class="services-wrap d-flex">
-    					<a href="#" class="img" style="background-image: url(images/pizza-2.jpg);"></a>
-    					<div class="text p-4">
-    						<h3>Görög Pizza</h3>
-    						<p>Feta sajttal, olívabogyóval és friss paradicsommal – mediterrán ízek Kecskeméten.</p>
-    						<p class="price"><span>2 990 Ft</span> <a href="#" class="ml-2 btn btn-white btn-outline-white">Rendelés</a></p>
-    					</div>
-    				</div>
-    			</div>
-    			<div class="col-lg-4 d-flex ftco-animate">
-    				<div class="services-wrap d-flex">
-    					<a href="#" class="img" style="background-image: url(images/pizza-3.jpg);"></a>
-    					<div class="text p-4">
-    						<h3>Csípős Pizza</h3>
-    						<p>Fűszeres kolbásszal, jalapeñóval és paprikával – igazi magyaros ízvilág.</p>
-    						<p class="price"><span>2 990 Ft</span> <a href="#" class="ml-2 btn btn-white btn-outline-white">Rendelés</a></p>
-    					</div>
-    				</div>
-    			</div>
+        <div class="col-md-3 mb-2 text-right">
+          <button class="btn btn-primary px-4">Szűrés</button>
+          <a href="{{ route('menu') }}" class="btn btn-outline-secondary px-4">Törlés</a>
+        </div>
+      </div>
+    </form>
 
-    			<div class="col-lg-4 d-flex ftco-animate">
-    				<div class="services-wrap d-flex">
-    					<a href="#" class="img order-lg-last" style="background-image: url(images/pizza-4.jpg);"></a>
-    					<div class="text p-4">
-    						<h3>Amerikai Pizza</h3>
-    						<p>Extra sajt, füstölt sonka és ropogós szél – a klasszikus amerikai ízvilág újragondolva. </p>
-    						<p class="price"><span>2 990 Ft</span> <a href="#" class="ml-2 btn btn-white btn-outline-white">Rendelés</a></p>
-    					</div>
-    				</div>
-    			</div>
-    			<div class="col-lg-4 d-flex ftco-animate">
-    				<div class="services-wrap d-flex">
-    					<a href="#" class="img order-lg-last" style="background-image: url(images/pizza-5.jpg);"></a>
-    					<div class="text p-4">
-    						<h3>Paradicsomos különlegesség</h3>
-    						<p>Saját készítésű szószunkkal, friss paradicsommal és egy leheletnyi oregánóval.</p>
-    						<p class="price"><span>2 990 Ft</span> <a href="#" class="ml-2 btn btn-white btn-outline-white">Rendelés</a></p>
-    					</div>
-    				</div>
-    			</div>
-    			<div class="col-lg-4 d-flex ftco-animate">
-    				<div class="services-wrap d-flex">
-    					<a href="#" class="img order-lg-last" style="background-image: url(images/pizza-6.jpg);"></a>
-    					<div class="text p-4">
-    						<h3>Margherita</h3>
-    						<p>Az örök klasszikus: paradicsom, mozzarella, friss bazsalikom – egyszerű, mégis tökéletes.</p>
-    						<p class="price"><span>2 990 Ft</span> <a href="#" class="ml-2 btn btn-white btn-outline-white">Rendelés</a></p>
-    					</div>
-    				</div>
-    			</div>
-    		</div>
-    	</div>
 
-    	<div class="container">
-    		<div class="row justify-content-center mb-5 pb-3 mt-5 pt-5">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <h2 class="mb-4">Étlap és árak</h2>
-            <p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
-            <p class="mt-5">Válogass Kecskemét kedvenc pizzái közül – kemencében sütve, friss alapanyagokkal, a NetPizza konyhájából.</p>
+    {{-- Kategóriák és pizzák listázása --}}
+    @forelse($categories as $category)
+      <div class="row mb-4">
+        <div class="col-12">
+          <h3 class="mb-3">
+            {{ $category->nev }}
+            <small class="text-muted">• Ár: {{ number_format($category->ar, 0, ',', ' ') }} Ft</small>
+          </h3>
+        </div>
+
+        @forelse($category->pizzas as $pizza)
+          <div class="col-md-4 d-flex ftco-animate">
+            <div class="blog-entry align-self-stretch w-100">
+              <a class="block-20" style="background-image: url('{{ asset('images/pizza-1.jpg') }}');"></a>
+
+              <div class="text py-4 d-block">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <h4 class="mb-0">{{ $pizza->nev }}</h4>
+                  @if($pizza->vegetarianus)
+                    <span class="badge badge-success">Vega</span>
+                  @endif
+                </div>
+
+                <p class="mb-2 text-muted">
+                  Kategória: <strong>{{ $category->nev }}</strong><br>
+                  Ára: <strong>{{ number_format($category->ar, 0, ',', ' ') }} Ft</strong>
+                </p>
+
+                <p class="mb-0 small text-muted">
+                  Rendelések: {{ $pizza->orders_count ?? 0 }} db
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="row">
-        	<div class="col-md-6">
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="img" style="background-image: url(images/pizza-1.jpg);"></div>
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Olasz klasszikus</span></h3>
-	        				<span class="price">2 990 Ft</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>Vékony tésztás, paradicsomos alapú pizza friss mozzarellával és bazsalikommal.</p>
-	        			</div>
-        			</div>
-        		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="img" style="background-image: url(images/pizza-2.jpg);"></div>
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Hawaii Pizza</span></h3>
-	        				<span class="price">2 990 Ft</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>Sonkával, ananásszal és olvadt sajttal – édes és sós ízek tökéletes harmóniája.</p>
-	        			</div>
-	        		</div>
-        		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="img" style="background-image: url(images/pizza-3.jpg);"></div>
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Görög Pizza</span></h3>
-	        				<span class="price">2 990 Ft</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>Feta sajttal, olívabogyóval és friss paradicsommal – mediterrán ízek Kecskeméten.</p>
-	        			</div>
-	        		</div>
-        		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="img" style="background-image: url(images/pizza-4.jpg);"></div>
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Baconos ropogós</span></h3>
-	        				<span class="price">3 990 Ft</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>Ropogós tésztán sült pizza füstölt baconnel, sajttal és fűszeres paradicsomszósszal.</p>
-	        			</div>
-	        		</div>
-        		</div>
-        	</div>
+        @empty
+          <div class="col-12">
+            <p class="text-muted">Ehhez a kategóriához nincs (szűrőnek megfelelő) pizza.</p>
+          </div>
+        @endforelse
+      </div>
 
-        	<div class="col-md-6">
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="img" style="background-image: url(images/pizza-5.jpg);"></div>
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Hawaii különlegesség</span></h3>
-	        				<span class="price">4 990 Ft</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>Dupla adag sonka, ananász és extra sajt – az édes és sós ízek tökéletes harmóniája.<</p>
-	        			</div>
-	        		</div>
-        		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="img" style="background-image: url(images/pizza-6.jpg);"></div>
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>NetPizza Extra</span></h3>
-	        				<span class="price">3 990 Ft</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>A ház kedvence: mindenből egy kicsi – sonka, kukorica, paprika, gomba és sok sajt.</p>
-	        			</div>
-	        		</div>
-        		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="img" style="background-image: url(images/pizza-7.jpg);"></div>
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Baconos Pizza</span></h3>
-	        				<span class="price">3 590 Ft</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>Ropogós baconnel, olvasztott sajttal és fűszeres paradicsomszósszal – igazi klasszikus.</p>
-	        			</div>
-	        		</div>
-        		</div>
-        		<div class="pricing-entry d-flex ftco-animate">
-        			<div class="img" style="background-image: url(images/pizza-8.jpg);"></div>
-        			<div class="desc pl-3">
-	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Sonka &amp; Ananász</span></h3>
-	        				<span class="price">2 990 Ft</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>Finom sonkával és friss ananásszal, olasz mozzarellával sütve – minden falatban trópusi élmény.</p>
-	        			</div>
-	        		</div>
-        		</div>
-        	</div>
-        </div>
-    	</div>
-    </section>
+      <hr>
+    @empty
+      <p class="text-center text-muted">Nincs megjeleníthető kategória.</p>
+    @endforelse
 
-    @include('layouts.partials.footer')
+  </div>
+</section>
+
+@include('layouts.partials.footer')

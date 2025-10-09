@@ -2,8 +2,6 @@
 
 namespace Database\Seeders;
 
-use App\Models\User;
-// use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -13,11 +11,27 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // User::factory(10)->create();
+        // Hívjuk a saját seedereket
+        $this->call([
+            CategorySeeder::class,
+            PizzaSeeder::class,
+            OrderSeeder::class,
+        ]);
 
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
+        // Hozzunk létre 1 admin és 1 regisztrált user-t
+        \App\Models\User::factory()->create([
+            'name' => 'Admin User',
+            'email' => 'admin@netpizza.hu',
+            'password' => bcrypt('admin123'),
+            'role' => 'admin',
+        ]);
+
+        \App\Models\User::factory()->create([
+            'name' => 'Registered User',
+            'email' => 'user@netpizza.hu',
+            'password' => bcrypt('user123'),
+            'role' => 'registered',
         ]);
     }
 }
+

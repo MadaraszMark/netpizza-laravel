@@ -8,8 +8,8 @@
           <div class="row slider-text justify-content-center align-items-center">
 
             <div class="col-md-7 col-sm-12 text-center ftco-animate">
-            	<h1 class="mb-3 mt-5 bread">About</h1>
-	            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>About</span></p>
+            	<h1 class="mb-3 mt-5 bread">Rólunk</h1>
+	            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Kezdőlap</a></span> <span>Rólunk</span></p>
             </div>
 
           </div>
@@ -26,22 +26,22 @@
 	    				<div class="col-md-4 d-flex ftco-animate">
 	    					<div class="icon"><span class="icon-phone"></span></div>
 	    					<div class="text">
-	    						<h3>000 (123) 456 7890</h3>
-	    						<p>A small river named Duden flows</p>
+	    						<h3>+36 76 123 456</h3>
+	    						<p>Hívj minket bizalommal!</p>
 	    					</div>
 	    				</div>
 	    				<div class="col-md-4 d-flex ftco-animate">
 	    					<div class="icon"><span class="icon-my_location"></span></div>
 	    					<div class="text">
-	    						<h3>198 West 21th Street</h3>
-	    						<p>Suite 721 New York NY 10016</p>
+	    						<h3>6000 Kecskemét, Fő utca 21</h3>
+	    						<p>A belváros szívében, könnyen megközelíthető helyen</p>
 	    					</div>
 	    				</div>
 	    				<div class="col-md-4 d-flex ftco-animate">
 	    					<div class="icon"><span class="icon-clock-o"></span></div>
 	    					<div class="text">
-	    						<h3>Open Monday-Friday</h3>
-	    						<p>8:00am - 9:00pm</p>
+	    						<h3>Nyitva: Hétfő–Péntek</h3>
+	    						<p>8:00 - 21:00</p>
 	    					</div>
 	    				</div>
 	    			</div>
@@ -61,10 +61,12 @@
     	<div class="one-half img" style="background-image: url(images/about.jpg);"></div>
     	<div class="one-half ftco-animate">
         <div class="heading-section ftco-animate ">
-          <h2 class="mb-4">Welcome to <span class="flaticon-pizza">Pizza</span> A Restaurant</h2>
+          <h2 class="mb-4">Üdvözlünk a <span class="flaticon-pizza">NetPizza</span> Étteremben</h2>
         </div>
         <div>
-  				<p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
+  				<p>A NetPizza Kecskemét egyik kedvenc pizzériája, ahol a friss alapanyagok és az olasz ízek találkoznak.  
+                Szenvedéllyel sütjük pizzáinkat, hogy minden falat egy kis szelet Itáliát idézzen.  
+                Legyen szó gyors ebédről, családi vacsoráról vagy baráti összejövetelről, nálunk mindig meleg fogadtatás és mennyei illatok várnak</p>
   			</div>
     	</div>
     </section>
@@ -73,9 +75,9 @@
       <div class="container">
       	<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section ftco-animate text-center">
-            <h2 class="mb-4">Our Chef</h2>
+            <h2 class="mb-4">Séfjeink</h2>
             <p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
-            <p class="mt-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <p class="mt-5">Ismerd meg a NetPizza tehetséges csapatát, akik minden nap friss, olasz ízeket varázsolnak Kecskeméten.</p>
           </div>
         </div>
         <div class="row">
@@ -83,10 +85,10 @@
         		<div class="staff">
       				<div class="img mb-4" style="background-image: url(images/person_1.jpg);"></div>
       				<div class="info text-center">
-      					<h3><a href="teacher-single.html">Tom Smith</a></h3>
-      					<span class="position">Hair Specialist</span>
+      					<h3><a href="teacher-single.html">Kovács Tamás</a></h3>
+      					<span class="position">Pizza specialista</span>
       					<div class="text">
-	        				<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+	        				<p>Több mint tíz éve dolgozik a vendéglátásban. Tamás az olasz konyha szerelmese, aki minden pizzát kézzel gyúr, hogy az tökéletes legyen – kívül ropogós, belül lágy.</p>
 	        			</div>
       				</div>
         		</div>
@@ -95,10 +97,10 @@
         		<div class="staff">
       				<div class="img mb-4" style="background-image: url(images/person_2.jpg);"></div>
       				<div class="info text-center">
-      					<h3><a href="teacher-single.html">Mark Wilson</a></h3>
-      					<span class="position">Beard Specialist</span>
+      					<h3><a href="teacher-single.html">Szabó Márk</a></h3>
+      					<span class="position">Séf</span>
       					<div class="text">
-	        				<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+	        				<p>Márk a NetPizza konyhájának motorja. Precíz, kreatív és mindig új ízekkel kísérletezik, hogy a vendégeknek felejthetetlen élményt nyújtson.</p>
 	        			</div>
       				</div>
         		</div>
@@ -107,10 +109,10 @@
         		<div class="staff">
       				<div class="img mb-4" style="background-image: url(images/person_3.jpg);"></div>
       				<div class="info text-center">
-      					<h3><a href="teacher-single.html">Patrick Jacobson</a></h3>
-      					<span class="position">Hair Stylist</span>
+      					<h3><a href="teacher-single.html">Tóth Patrik</a></h3>
+      					<span class="position">Konyhafőnök</span>
       					<div class="text">
-	        				<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+	        				<p>Patrik vezeti a NetPizza séfcsapatát. Szakmai tudását Olaszországban szerezte, ahol megtanulta, hogy a jó pizza titka az egyszerűség és a szenvedély.</p>
 	        			</div>
       				</div>
         		</div>
@@ -119,10 +121,10 @@
         		<div class="staff">
       				<div class="img mb-4" style="background-image: url(images/person_4.jpg);"></div>
       				<div class="info text-center">
-      					<h3><a href="teacher-single.html">Ivan Dorchsner</a></h3>
-      					<span class="position">Beard Specialist</span>
+      					<h3><a href="teacher-single.html">Nagy Iván</a></h3>
+      					<span class="position">Pizzamester</span>
       					<div class="text">
-	        				<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+	        				<p>Iván a kemence mestere. Ő felügyeli, hogy minden pizza pont akkor kerüljön ki a sütőből, amikor a tészta aranybarna és a sajt tökéletesen megolvad.</p>
 	        			</div>
       				</div>
         		</div>
@@ -143,7 +145,7 @@
 		              <div class="text">
 		              	<div class="icon"><span class="flaticon-pizza-1"></span></div>
 		              	<strong class="number" data-number="100">0</strong>
-		              	<span>Pizza Branches</span>
+		              	<span>Pizzafajtánk</span>
 		              </div>
 		            </div>
 		          </div>
@@ -152,7 +154,7 @@
 		              <div class="text">
 		              	<div class="icon"><span class="flaticon-medal"></span></div>
 		              	<strong class="number" data-number="85">0</strong>
-		              	<span>Number of Awards</span>
+		              	<span>Elismerés és díjaink</span>
 		              </div>
 		            </div>
 		          </div>
@@ -161,7 +163,7 @@
 		              <div class="text">
 		              	<div class="icon"><span class="flaticon-laugh"></span></div>
 		              	<strong class="number" data-number="10567">0</strong>
-		              	<span>Happy Customer</span>
+		              	<span>Elégedett vásárló</span>
 		              </div>
 		            </div>
 		          </div>
@@ -170,7 +172,7 @@
 		              <div class="text">
 		              	<div class="icon"><span class="flaticon-chef"></span></div>
 		              	<strong class="number" data-number="900">0</strong>
-		              	<span>Staff</span>
+		              	<span>Munkatársaink</span>
 		              </div>
 		            </div>
 		          </div>

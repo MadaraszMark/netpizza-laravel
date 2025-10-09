@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MenuController;
 
 // Kezdőlap
 Route::get('/', function () {
@@ -8,9 +9,8 @@ Route::get('/', function () {
 })->name('home');
 
 // Menü
-Route::get('/menu', function () {
-    return view('layouts.menu');
-})->name('menu');
+
+Route::get('/menu', [MenuController::class, 'index'])->name('menu');
 
 // Szolgáltatások
 Route::get('/services', function () {
