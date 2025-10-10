@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MenuController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\MessageController;
 
 // Kezdőlap
 Route::get('/', function () {
@@ -17,18 +19,14 @@ Route::get('/services', function () {
     return view('layouts.services');
 })->name('services');
 
-// Kapcsolat
-Route::get('/contact', function () {
-    return view('layouts.contact');
-})->name('contact');
+// Kapcsolat (GET = megjelenítés, POST = mentés)
+Route::get('/contact', [ContactController::class, 'index'])->name('contact');
+Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
 
 // Rólunk
 Route::get('/about', function () {
     return view('layouts.about');
 })->name('about');
-
-// 🔹 A régi login route-ot töröltük, mert Breeze kezeli!
-// require __DIR__.'/auth.php' marad alul, ez hozza be a Breeze útvonalakat
 
 // Breeze (auth) útvonalak
 require __DIR__.'/auth.php';
@@ -39,9 +37,9 @@ Route::get('/admin', function () {
 })->middleware('role:admin')->name('admin');
 
 // Üzenetek – csak bejelentkezett (registered vagy admin) felhasználóknak
-Route::get('/messages', function () {
-    return view('layouts.messages');
-})->middleware(['auth'])->name('messages');
+Route::get('/messages', [MessageController::class, 'index'])
+    ->middleware('auth')
+    ->name('messages');
 
 
 

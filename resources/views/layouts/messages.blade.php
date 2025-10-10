@@ -19,13 +19,38 @@
 
 <section class="ftco-section contact-section">
   <div class="container">
-    <div class="row justify-content-center mb-5">
-      <div class="col-md-8 ftco-animate text-center">
-        <h2 class="mb-4">Ez az oldal csak regisztrált felhasználók számára elérhető!</h2>
-        <p>Itt fognak megjelenni az üzeneteid, értesítéseid vagy visszajelzéseid.</p>
+    <h2 class="text-center mb-5">Beérkezett üzenetek</h2>
+
+    @if($messages->isEmpty())
+      <p class="text-center text-muted">Még nem érkezett üzenet.</p>
+    @else
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <thead class="thead-dark text-center">
+            <tr>
+              <th>Név</th>
+              <th>Email</th>
+              <th>Tárgy</th>
+              <th>Üzenet</th>
+              <th>Küldés ideje</th>
+            </tr>
+          </thead>
+          <tbody>
+            @foreach($messages as $msg)
+              <tr>
+                <td>{{ $msg->name }}</td>
+                <td>{{ $msg->email }}</td>
+                <td>{{ $msg->subject }}</td>
+                <td>{{ $msg->message }}</td>
+                <td>{{ $msg->created_at->format('Y.m.d H:i') }}</td>
+              </tr>
+            @endforeach
+          </tbody>
+        </table>
       </div>
-    </div>
+    @endif
   </div>
 </section>
 
 @include('layouts.partials.footer')
+
