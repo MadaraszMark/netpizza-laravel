@@ -9,7 +9,10 @@
             	<span class="subheading">Ínycsiklandó</span>
               <h1 class="mb-4">Olasz konyha</h1>
               <p class="mb-4 mb-md-5">Kecskemét központjában, természetközelben várjuk vendégeinket különleges olasz fogásokkal.</p>
-              <p><a href="#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Rendelés most</a> <a href="#" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">Menü megtekintése</a></p>
+              <p>
+  <a href="{{ route('order.index') }}" class="btn btn-primary p-3 px-xl-4 py-xl-3">Rendelés most</a>
+  <a href="{{ route('menu') }}" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">Menü megtekintése</a>
+</p>
             </div>
             <div class="col-md-6 ftco-animate">
             	<img src="images/bg_1.png" class="img-fluid" alt="">

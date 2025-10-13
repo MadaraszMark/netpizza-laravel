@@ -14,6 +14,11 @@ return new class extends Migration
             $table->integer('darab');
             $table->dateTime('felvetel');
             $table->dateTime('kiszallitas')->nullable();
+
+            $table->foreignId('user_id')->nullable()
+                ->constrained('users')
+                ->onDelete('set null');
+
             $table->timestamps();
 
             $table->foreign('pizzanev')
@@ -29,6 +34,7 @@ return new class extends Migration
         Schema::dropIfExists('rendeles');
     }
 };
+
 
 
 

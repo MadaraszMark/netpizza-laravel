@@ -6,6 +6,7 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\MessageController;
 use App\Http\Controllers\ChartController;
 use App\Http\Controllers\Admin\PizzaCrudController;
+use App\Http\Controllers\OrderController;
 
 // Kezdőlap
 Route::get('/', function () {
@@ -50,6 +51,10 @@ Route::get('/chart', [ChartController::class, 'index'])->name('chart');
 Route::middleware(['auth', 'role:admin'])->prefix('admin')->group(function () {
     Route::resource('pizzas', PizzaCrudController::class);
 });
+
+// Rendelés
+Route::get('/order', [OrderController::class, 'index'])->name('order.index');
+Route::post('/order', [OrderController::class, 'store'])->name('order.store');
 
 
 

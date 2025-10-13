@@ -9,12 +9,11 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('pizza', function (Blueprint $table) {
-            $table->string('nev')->primary();        // pizza neve = kulcs
-            $table->string('kategorianev');          // kapcsolódik a kategoria.nev-hez
-            $table->boolean('vegetarianus');         // vegetáriánus-e
+            $table->string('nev')->primary();
+            $table->string('kategorianev');
+            $table->boolean('vegetarianus');
             $table->timestamps();
 
-            // idegen kulcs kapcsolat
             $table->foreign('kategorianev')
                   ->references('nev')
                   ->on('kategoria')

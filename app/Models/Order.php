@@ -20,6 +20,7 @@ class Order extends Model
         'darab',
         'felvetel',
         'kiszallitas',
+        'user_id',
     ];
 
     public function pizza()
@@ -27,10 +28,16 @@ class Order extends Model
         return $this->belongsTo(Pizza::class, 'pizzanev', 'nev');
     }
 
+    public function user()
+    {
+        return $this->belongsTo(User::class, 'user_id', 'id');
+    }
+
     protected $casts = [
         'felvetel' => 'datetime',
         'kiszallitas' => 'datetime',
     ];
 }
+
 
 
