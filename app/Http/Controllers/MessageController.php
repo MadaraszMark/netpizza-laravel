@@ -13,7 +13,6 @@ class MessageController extends Controller
 
     public function index()
     {
-        // Üzenetek lekérése legújabb elöl
         $messages = Message::orderBy('created_at', 'desc')->get();
 
         return view('layouts.messages', compact('messages'));

@@ -7,13 +7,8 @@ use Illuminate\Http\Request;
 
 class MenuController extends Controller
 {
-    /**
-     * Az étlap (menü) megjelenítése.
-     * Lehetővé teszi a keresést és a vegetáriánus szűrést.
-     */
     public function index(Request $request)
     {
-        // Keresés és szűrés beolvasása
         $search = trim($request->get('q', ''));
         $onlyVeg = $request->boolean('veg', false);
 

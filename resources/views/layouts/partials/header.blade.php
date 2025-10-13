@@ -25,7 +25,6 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
     <style>
-      /* Dropdown javítás – hover stabilizálás */
       .nav-item.dropdown {
         position: relative;
       }
@@ -86,6 +85,9 @@
   <li class="nav-item {{ request()->is('contact') ? 'active' : '' }}">
     <a href="{{ url('contact') }}" class="nav-link">Kapcsolat</a>
   </li>
+  <li class="nav-item {{ request()->is('chart') ? 'active' : '' }}">
+  <a href="{{ route('chart') }}" class="nav-link">Diagram</a>
+</li>
 
   {{-- Üzenetek menüpont - csak bejelentkezett felhasználónak --}}
   @auth
@@ -106,10 +108,14 @@
     </li>
   @else
     @if(auth()->user()->role === 'admin')
-      <li class="nav-item {{ request()->is('admin') ? 'active' : '' }}">
-        <a href="{{ route('admin') }}" class="nav-link">Admin</a>
-      </li>
-    @endif
+  <li class="nav-item {{ request()->is('admin') ? 'active' : '' }}">
+    <a href="{{ route('admin') }}" class="nav-link">Admin</a>
+  </li>
+
+  <li class="nav-item {{ request()->is('admin/pizzas') ? 'active' : '' }}">
+    <a href="{{ route('pizzas.index') }}" class="nav-link">Pizzák</a>
+  </li>
+@endif
 
     {{-- Dropdown név + kijelentkezés --}}
     <li class="nav-item dropdown">
